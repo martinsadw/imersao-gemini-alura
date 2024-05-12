@@ -9,7 +9,7 @@ function convertDate(dateString) {
         if (meridian === 'PM')
             hours = hours + 12
         const today = new Date();
-        today.setHours(meridian === 'PM' ? parseInt(hours) + 12 : hours, minutes, 0, 0);
+        today.setHours(hours, minutes, 0, 0);
         return today;
     }
 
@@ -45,7 +45,7 @@ function convertDate(dateString) {
 }
 
 function fetch_projects() {
-    posts = Array.from(document.querySelectorAll('ol[data-list-id="chat-messages"] li'))
+    posts = Array.from(document.querySelectorAll('ol[data-list-id="chat-messages"] li.messageListItem__050f9'))
 
     return posts.map((post) => { 
         card = post.children[0].children[1].children[0].children[0].children[0]
