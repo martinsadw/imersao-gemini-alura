@@ -7,7 +7,7 @@ Notebook no Google Colab para analisar os projetos submetidos para a imersão de
 ---
 
 Os dados dos projetos estão salvos em [alura_projects.csv](alura_projects.csv)  
-Ultima coleta realizada em: 11/05/2024 - 12:50
+Ultima coleta realizada em: 11/05/2024 - 22:25
 
 Os dados coletados de cada projeto são:
 - `autor`: Nome do autor que submeteu o projeto;
